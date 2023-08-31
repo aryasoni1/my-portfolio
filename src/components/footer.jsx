@@ -5,7 +5,7 @@ function Lower(){
         <div className="footer">
             <div className='contact'>
                 <div></div>
-                <div>
+                <div className='contactlink'>
                     <h1>Social</h1>
                     <ul>
                         <li></li>
