@@ -54,12 +54,27 @@ footer{
   text-align: center;
   position: relative;
   z-index: -1;
-  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url()
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("https://www.freepik.com/free-vector/realistic-polygonal-background_13223084.htm#query=triangle%20background&position=0&from_view=keyword&track=ais")
 }
 .homeinfo{
   position:absolute;
   top:50%;
   left:50%;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0 4px;
+}
+.column{
+  flex:50%;
+  max-width:50%;
+  padding:0 4px;
+}
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width:100%;
 }
 .footer{
   background-color: black;
@@ -96,5 +111,9 @@ footer{
 @media screen and (max-width: 600px) {
   .dropdown {
     float: right;
+  }
+  .column{
+    flex:100%;
+    max-width: 100%;
   }
 }
