@@ -1,7 +1,7 @@
 import React from 'react';
 function Lower(){
     return(
-    <footer>
+    <footer id="footer">
         <div className="footer">
             <div className='contact'>
                 <div></div>
