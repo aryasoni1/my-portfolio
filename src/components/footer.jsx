@@ -11,15 +11,15 @@ function Lower(){
                 <div className='contactlink'>
                     <h1>Social</h1>
                     <a href="">
-                        <img src="images/github.svg"></img>
+                        <img src="images/github-ico.png"></img>
                     </a>
                     <a href="">
-                        <img src="images/linkedin.svg"></img>
+                        <img src="images/linkedin-ico.png"></img>
                     </a>
                 </div>
             </div>
             <div className="copyright">
-             <p>Copyright</p>
+             <p>Copyright 2023.Made by Arya Soni.</p>
             </div>
         </div>
     </footer>
